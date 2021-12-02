@@ -21,9 +21,9 @@ public class Launcher {
             simulation.initialize(Long.parseLong(args[1]),1000);
         } else {
             logger.log("" +
-                "Il y a 2 manières de lancer ce programe :\n" +
-                "mode -interactive, jouer une partie vs l'ordinateur \n" +
-                "mode -auto $1, faire deviner un chiffre à l'ordinateur.");
+                "2 manières de lancer ce jeux :\n" +
+                " -interactive, jouer une partie vs l'ordinateur \n" +
+                " -auto $1, faire deviner un chiffre à l'ordinateur.");
 
         }
     }
