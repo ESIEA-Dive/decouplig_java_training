@@ -32,7 +32,7 @@ public class Simulation {
         if(nbr == numberToGuess)
         {
             System.out.println("Félicitation tu as trouvé(e) le bon Chiffre :D! TROP FORT !!!");
-            logger.log("End");
+            logger.log("done");
             return true;
         }
         else
